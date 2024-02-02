@@ -43,7 +43,7 @@ producer = SerializingProducer(
 
 # while True:
 
-for message_count in range (10):
+for message_count in range (1000):
 
     message = {
         "loan_id": str(uuid.uuid1()),
